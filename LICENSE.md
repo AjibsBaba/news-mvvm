@@ -1,21 +1,3 @@
-# NewsMVVM
-
-NewsMVVM is a news app, built with
-[Jetpack Compose](https://developer.android.com/jetpack/compose). The goal of the app is to
-fetch news posts from an external API and render it in Composables.
-
-### App scaffolding
-
-Package [`com.ajibsbaba.newsmvvm`][1]
-
-[`MainActivity`][2] is the application's entry point.
-
-[1]: app/src/main/java/com/ajibsbaba/newsmvvm
-[2]: app/src/main/java/com/ajibsbaba/newsmvvm/MainActivity.kt
-
-## License
-
-```
 Copyright (c) 2023 Samuel Ajibade
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -35,4 +17,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-```
