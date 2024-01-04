@@ -9,11 +9,12 @@ import com.ajibsbaba.newsmvvm.ui.theme.NewsMVVMTheme
 class MainActivity : ComponentActivity() {
 
     private val viewModel: NewsPostViewModel by viewModels()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
            NewsMVVMTheme {
-
+               NewsPostScreen(viewModel = viewModel)
            }
         }
     }
